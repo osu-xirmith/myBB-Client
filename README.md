@@ -3,7 +3,7 @@ myBB-Client Class
 
 Little Class for writing bots for myBB in PHP. Won't work properly on forums with non-standard URL format. All features are tested on a fresh installation of myBB 1.6.13.
 
-##Example
+### Example
 The below example will login, create a thread (in forum 2), reply to it and then rate it with five stars.
 ```php
 try{
@@ -27,7 +27,7 @@ catch(myBBException $e){
 }
 ```
 
-##Features
+### Features
 - Create new quick replies
 - Create new threads (no settings)
 - Rate Threads
